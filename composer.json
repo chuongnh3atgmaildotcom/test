@@ -1,0 +1,30 @@
+{
+    "name": "chuongnh/login-restriction",
+    "description": "test login restriction",
+    "type": "magento2-module",
+    "minimum-stability": "stable",
+    "version": "0.0.1",
+    "authors": [
+        {
+            "name": "Chuongnh",
+            "email": "chuongnh3@gmail.com"
+        }
+    ],
+    "require": {
+        "magento/module-customer": "~100.0"
+    },
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Test\\LoginRestriction\\": ""
+        }
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/chuongnh3atgmaildotcom/test"
+        }
+    ]
+}
